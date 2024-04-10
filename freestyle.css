@@ -76,7 +76,7 @@ nav{
 /*  nav logo */
 
 .header-logo-backplate{
-    background-color: transparent;
+    background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18);
     /* background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18); */
     width: 10%;
     height: 100%;
@@ -124,7 +124,7 @@ header span[class="navlogo"] , header span[class="navaccount"]{
     
 }
 .navaccountdiv{
-    content-visibility:hidden;
+    
     background: transparent;
     display: flex;
     align-items: center;
@@ -132,16 +132,6 @@ header span[class="navlogo"] , header span[class="navaccount"]{
     width: max(4vw, 30px) ;
     height: max(4vw, 30px);
 }
-.navaccountdiv2{
-    content-visibility:hidden;
-    background: transparent;
-    align-items: center;
-    background-color: transparent;
-    width: 50%;
-    height: 100%;
-}
-
-
 
 
 
