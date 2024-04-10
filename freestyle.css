@@ -171,7 +171,7 @@ header span[class="navlogo"] , header span[class="navaccount"]{
     align-items: center;
     background-color: transparent;
     width: 100vw;
-    height: min( 10px, 35vh);
+    height: 10px;
     margin-inline: auto;
     object-fit: cover;
     z-index: 0;
@@ -185,7 +185,7 @@ header span[class="navlogo"] , header span[class="navaccount"]{
 .imagemteste{
     object-fit:cover;
     object-position: 50% 70%;
-    height: 100%;
+    height: 50%;
     width: 2000px;
     margin: 0;
     z-index: 2;
