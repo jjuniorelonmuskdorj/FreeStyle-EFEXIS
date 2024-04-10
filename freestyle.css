@@ -3,7 +3,7 @@
     margin:0;
     padding: 0;
     border: none;
-    --gapnavigation : 30px;
+    --gapnavigation : 1vw;
     scroll-behavior: smooth;
     color: white;
     text-decoration: none;
@@ -170,14 +170,15 @@ header span[class="navlogo"] , header span[class="navaccount"]{
     justify-content: center;
     align-items: center;
     background-color: transparent;
-    width: 95vw;
-    height: 32vh;
+    width: 100vw;
+    height: 35vh;
     margin-inline: auto;
     object-fit: cover;
     z-index: 0;
     position: relative;
     top: -35px;
     margin-bottom: -10px;
+    border: 2px solid gray;
    
 }
 
@@ -185,8 +186,8 @@ header span[class="navlogo"] , header span[class="navaccount"]{
     object-fit:cover;
     object-position: 50% 70%;
     height: 100%;
-    width: 100%;
-    position: relative;
+    width: 2000px;
+    margin: 0;
     z-index: 2;
     border-radius: 7px;
     }
@@ -207,7 +208,7 @@ main section{
     flex-wrap: wrap;
     background-color: #10110f;
     width: 85vw;
-    height: 2000px;
+    height: 700px;
 
  
     border: 1px solid gray;
@@ -215,7 +216,7 @@ main section{
     border-collapse: collapse;
 
     position: relative;
-    top: -65px;
+    top: calc( -65px - 2vh) ;
 }
 
 
