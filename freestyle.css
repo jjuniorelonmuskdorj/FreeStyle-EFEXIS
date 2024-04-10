@@ -23,7 +23,7 @@ body{
 /* ---------------------- */
 
 header{
-    background-color: transparent;
+    background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18);
     width: 100%;
     height: 60px;
     padding:0px;
@@ -44,7 +44,7 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav{ 
-    background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18);
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,20 +76,21 @@ nav{
 /*  nav logo */
 
 .header-logo-backplate{
-    background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18);
+    background: transparent;
     /* background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18); */
     width: 10%;
     height: 100%;
 }
 
 .header-account-backplate{
-    background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18);
+    background: transparent;
+    /* background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18); */
     justify-content: center;
     align-items: center;
     width: 10%;
     height: 100%;
     margin-inline: 0;
-    padding-inline: 14px;
+    padding-inline: 0px;
 }
 
 
@@ -119,15 +120,14 @@ header span[class="navlogo"] , header span[class="navaccount"]{
     width: max(4vw, 100%) ;
     height: max(4vw, 100%);
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     
 }
 .navaccountdiv{
-    
-    background: transparent;
     display: flex;
-    align-items: center;
+    justify-content: left;
+    background: transparent;
     background-color: transparent;
     width: max(4vw, 30px) ;
     height: max(4vw, 30px);
@@ -138,8 +138,8 @@ header span[class="navlogo"] , header span[class="navaccount"]{
 /* */
 
 .betweenthelight{
-    content-visibility:hidden;
-    margin: auto;
+    
+    
     width:  60px ;
     height:  60px;
 
