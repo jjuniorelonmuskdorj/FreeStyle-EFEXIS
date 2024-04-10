@@ -76,7 +76,8 @@ nav{
 /*  nav logo */
 
 .header-logo-backplate{
-    background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18);
+    background-color: transparent;
+    /* background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18); */
     width: 10%;
     height: 100%;
 }
