@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    border: none;
+    --gapnavigation : 30px;
+    scroll-behavior: smooth;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+     
+}
+
+body{
+    background: linear-gradient(#1a1b18 ,  #10110f , #1a1b18);
+    width: 100%;
+    height: 100%;
+    margin-top: 2.5vh;
+}
+
+/* ---------------------- */
+/*         HEADER        */
+/* ---------------------- */
+
+header{
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    padding:0px;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-inline: 0;
+    position: relative;
+    z-index: 2;
+
+    border: 2px solid gray;
+    border-radius: 5px;
+
+    font-size: min(2vw , 1.2em); 
+    color: white; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{ 
+    background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    padding: 0;
+}
+
+/*  nav logo */
+
+.navlogo{
+    display: flex;
+    align-items: center;
+
+}
+.navlogo-logo{
+    filter: invert(49%) sepia(94%) saturate(2525%) hue-rotate(161deg) brightness(95%) contrast(101%);
+    position: absolute;
+    top: 35%;
+    
+
+    width: 10%;
+    height: 30%;
+    background-image: url(logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*  nav logo */
+
+.header-logo-backplate{
+    background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18);
+    width: 10%;
+    height: 100%;
+}
+
+.header-account-backplate{
+    background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18);
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    margin-inline: 0;
+    padding-inline: 14px;
+}
+
+
+
+
+
+header ul{
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: center;   
+    gap: var(--gapnavigation);
+    list-style: none;
+    
+}
+header span[class="navlogo"] , header span[class="navaccount"]{
+    width: 10%;
+    display: flex;
+    justify-self: center;
+    
+}
+
+.navaccount{
+    background-color: transparent;
+    width: max(4vw, 100%) ;
+    height: max(4vw, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navaccountdiv{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    width: max(4vw, 30px) ;
+    height: max(4vw, 30px);
+}
+.navaccountdiv2{
+    align-items: center;
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+/* */
+
+.betweenthelight{
+
+/*
+    position: absolute;
+    top: -8px;
+    right:2.5%;
+
+*/
+
+    
+ 
+    margin: auto;
+    width:  60px ;
+    height:  60px;
+
+    border-radius: 50%;
+    border: 2px solid rebeccapurple;
+
+    
+    background-image: url(merperfil.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+/* ---------------------- */
+/*         SLIDER         */
+/* ---------------------- */
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 95vw;
+    height: 32vh;
+    margin-inline: auto;
+    object-fit: cover;
+    z-index: 0;
+    position: relative;
+    top: -35px;
+    margin-bottom: -10px;
+   
+}
+
+.imagemteste{
+    object-fit:cover;
+    object-position: 50% 70%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    border-radius: 7px;
+    }
+
+/* ---------------------- */
+/*        main section     */
+/* ---------------------- */
+
+
+main section{
+    display: flex;
+    justify-content: center;
+}
+
+.main-block{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #10110f;
+    width: 85vw;
+    height: 2000px;
+
+ 
+    border: 1px solid gray;
+    border-radius: 5px;
+    border-collapse: collapse;
+
+    position: relative;
+    top: -65px;
+}
+
+
+
+.main-header{
+    /* background-color: rgb(71, 67, 67); */
+    background-color: #0F0F0F;
+    height: 30px;
+    width: 85%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin-block: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center; 
+}
+
+header a:visited {
+    color: inherit;
+}
+
+
+.main-header ul {
+   display: flex;
+   gap: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.main-network{
+    background-color: #0F0F0F;
+    height: 30px;
+    width: 15%;
+    border: 1px solid gray;
+    text-align: center;
+
+    margin-block: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-block-content{
+    background-color: #0F0F0F;
+    height: 100%;
+    width: 85%;
+    border: 1px solid gray;
+    justify-content: space-between;
+    margin-block: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+}
+.test2{
+    background-color: #0F0F0F;
+    height: 100%;
+    width: 15%;
+    border: 1px solid gray;
+    text-align: left;
+    vertical-align: middle;
+    margin-block: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
