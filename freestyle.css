@@ -85,14 +85,18 @@ nav{
 .header-account-backplate{
     background: transparent;
     /* background: linear-gradient(#1a1b18 ,  rgb(39, 42, 48) , #1a1b18); */
-    justify-content: center;
-    align-items: center;
+ 
     width: 10%;
     height: 100%;
     margin-inline: 0;
     padding-inline: 0px;
 }
 
+.name-perfil{ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 
 
@@ -138,8 +142,7 @@ header span[class="navlogo"] , header span[class="navaccount"]{
 /* */
 
 .betweenthelight{
-    
-    
+     
     width:  60px ;
     height:  60px;
 
@@ -150,6 +153,8 @@ header span[class="navlogo"] , header span[class="navaccount"]{
     background-image: url(img/merperfil.gif);
     background-size: contain;
     background-repeat: no-repeat;
+
+    
     
 
 }
@@ -202,7 +207,7 @@ main section{
     flex-wrap: wrap;
     background-color: #10110f;
     width: 85vw;
-    height: 600px;
+    height: 2000px;
 
  
     border: 1px solid gray;
